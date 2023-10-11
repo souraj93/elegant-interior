@@ -1,0 +1,267 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+h2{
+	color:#ffd200 !important;
+	position:relative!important;
+	display: inline-block!important;
+	text-transform: capitalize !important;
+    font-weight: 600 !important;
+}
+h2:after {
+    content: '';
+    width: 190px !important;
+    height: 4px!important;
+	background-color:transparent !important;
+    background-image: url(http://atsmedia.com.au/elegant/wp-content/uploads/2020/10/righthedingline.png) !important;
+    position: absolute;
+	left: initial !important;
+    right: -220px !important;
+    top: 50%;
+    z-index: 3 !important;
+	padding:0 !important;
+}
+h2:before {
+    position: absolute;
+    content: '';
+	background-color:transparent !important;
+    background-image: url(http://atsmedia.com.au/elegant/wp-content/uploads/2020/10/lefthedingline.png) !important;
+    width: 190px !important;
+	height:4px!important;
+    padding:0 !important;
+    left: -220px !important;
+	top: 50%;
+    z-index: 3;
+}
+.text_box {
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+}
+.conter_wrapbox {
+    background: #000 !important;
+}
+#wpsm_counter_b_row_811 .wpsm_counterbox .wpsm_count-icon i {
+    font-size: 50px !important;
+    color: #fff !important;
+}
+#wpsm_counter_b_row_811 .wpsm_counterbox .wpsm_number {
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    color: #fff;
+    font-family: 'Montserrat' !important;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    line-height: 1.3em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+h3.wpsm_count-title {
+    color: #fff !important;
+	font-family: 'Montserrat' !important;
+}
+#socket .copyright {
+    float: none !important;
+    text-align: center;
+}
+.socket_color{
+	background:none !important;
+}
+.wpsm_testimonial-pic {
+    float: none !important;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wpsm_testimonial-pic > img { border: 0;}
+.wpsm_testimonial .wpsm_testimonial-review {
+    margin: 0!important;
+    float: none!important;
+	text-align: center!important;
+}
+.wpsm_testimonial .wpsm_testi_content:after { left: 49%!important; } 
+.wpsm_testi_content {	margin-bottom: 40px!important;}
+
+.wpsm_number {
+    color: #fff !important;
+}
+.welcome_wrapfooter { background: url(http://atsmedia.com.au/elegant/wp-content/uploads/2020/10/contactBg.png) no-repeat 26% -12px!important; border: 0!important;background-color: #252525;background-size: contain !important;  }
+.contactarea { background: #0000004a; padding: 20px 45px; margin:65px 0 0 0px;}
+.gettoucharea h3 { position: relative; display: inline-block; color: #ffd200 !important;}
+.gettoucharea h3:after {
+    content: '';
+    width: 190px !important;
+    height: 4px!important;
+	background-color:transparent !important;
+    background-image: url(http://atsmedia.com.au/elegant/wp-content/uploads/2020/10/righthedingline.png) !important;
+    position: absolute;
+	left: initial !important;
+    right: -220px !important;
+    top: 50%;
+    z-index: 3 !important;
+	padding:0 !important;
+}
+.contactarea input { max-width: 100% !important;
+    width: 100% !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-bottom: 1px solid #686869 !important;
+    margin: 0 !important;
+	height:28px !important;
+}
+.contactarea input:focus, 
+.contactarea textarea:focus { outline: none !important;box-shadow: none !important;}
+ .contactarea textarea { height:60px !important;    resize: none; max-width: 100% !important;
+    width: 100% !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-bottom: 1px solid #686869 !important;
+    margin: 0 !important;}
+
+.contactarea input::-webkit-input-placeholder,
+.contactarea textarea::-webkit-input-placeholder
+{ color:#fff !important;font-size:14px; font-family: 'Nunito Sans', sans-serif; opacity: 1;  }
+.contactarea input::-moz-placeholder,
+.contactarea textarea::-moz-placeholder
+{ color:#fff !important;font-size:14px; font-family: 'Nunito Sans', sans-serif; opacity: 1; }
+.contactarea input::-ms-input-placeholder,
+.contactarea textarea::-ms-input-placeholder
+{ color:#fff !important;font-size:14px; font-family: 'Nunito Sans', sans-serif;  opacity: 1;}
+
+
+
+.contactarea label { display: none !important}
+ul.contactlist { display: flex; list-style: none;margin: 0;}
+ul.contactlist li { padding-right: 4px; margin: 0; list-style: none;}
+
+
+.homecotactBtn .wpforms-submit  { background: #ffd200 !important; color: #000 !important; border: 0 !important;
+    font-weight: bold; width: 150px !important;}
+.gettoucharea { margin-top: 185px !important;}
+div.wpforms-container-full .wpforms-form .wpforms-field {
+    padding: 5px 0;
+    clear: both;
+}
+
+.footertoparea { text-align: center; }
+.footertoparea h2 { margin-top: 10px; color: #000!important; font-size: 34px!important; font-weight: bold;  display: block!important;}
+.footertoparea a {display: block; color: #000!important; font-size: 24px!important; font-weight: bold; }
+
+.getstartedBtn { width: 330px;height: 82px; border:0; display: inline-block; margin: 30px auto 0 !important; background: #ffd200!important; color: #000!important; font-size: 34px!important; line-height: 80px; text-decoration:none; border: 2px solid #ffd200!important; }
+.getstartedBtn:hover { border: 2px solid #ffd200!important; background: transparent!important; text-decoration:none; }
+.footerleftarea ul{ list-style:none; display: block!important; text-align: center; }
+.footerleftarea ul li { list-style:none!important; margin:0 15px!important; display: inline-block;}
+.av-share-box ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    border-left-style: solid;
+    border-left-width: 0;
+    width: 50px !important;
+}
+.footerleftarea { text-align: center;}
+.av-share-box ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block !important;
+    border-left-style: solid;
+    border-left-width: 0px !important;
+}
+
+#header {
+    margin-top: 20px;
+    /*position: absolute !important;*/
+    height: 80px !important;
+    margin-top: 0px !important;
+}
+div.block_images img {
+    padding: 20px;
+    border: 1px solid #000;
+    /* margin-bottom: 30px !important; */
+}
+.homebanner h1 { font-size: 70px; line-height: 50px; color: #fff; font-weight: 800!important;margin-bottom: 35px;font-family: arial, sans-serif;} 
+a.WriteAReviewButton__Button-sc-55ha4u-1.gTBtIi {
+    color: white;
+    font-weight: 700;
+}
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+  #welcome_wrapfooter_mobile{
+      display: none;
+  }
+  li#menu-item-search {
+    display: none !important;
+}
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+    
+  /* Add your Mobile Styles here */
+  .counter_numbertwo{
+      width: 100% !important;
+  }
+  li#menu-item-search {
+    display: none !important;
+}
+  h1.av-special-heading-tag {
+      font-size: 30px !important;
+  }
+   #welcome_wrapfooter_mobile{
+      display: block;
+  }
+  #header_main{
+background-color: #000000b8 !important;
+    padding: 20px 0px !important;
+  }
+  #welcome_wrap2{
+      margin-top: 120px !important;
+  }
+  .text_box{
+      width: 100% !important
+  }
+  h2.home_phone{
+    font-size: 30px !important;
+}
+.footertoparea h2 {
+    font-size: 30px !important;
+}
+div#mobile_home {
+    margin-top: 120px;
+}
+div#mobile_home h2 {
+    margin-top: 80px;
+}
+#header{
+    min-height: 120px !important;
+}
+.wpsm_testimonial .wpsm_testi_content {
+    min-height: 400px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
