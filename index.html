@@ -5,11 +5,11 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Elegant Interior - Best Home Interior Designer Kolkata</title>
+  <title>Elegant Interio - Best Home Interior Designer Kolkata</title>
   <meta name="Keywords" content="">
   <meta name="Description"
     content="Best Home interior in kolkata to suit every budget, with no compromise on quality.Make Your Home Look Amazing From Every Angle.High-quality raw materials & budget-friendly">
-  <link rel="icon" href="./assets/images/logo_fav-ico.png" type="image/x-icon">
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -399,17 +399,21 @@
       .banner {
         background-image: url('./images/home/banner.webp');
         min-height: 750px;
-        margin-top: 90px;
+        margin-top: 75px;
       }
 
       .banner .heading {
         font-size: 45px;
         line-height: 54px;
         font-weight: bolder;
+        position: inherit;
+        z-index: 3;
       }
 
       .banner .subheading {
         font-size: 20px;
+        position: inherit;
+        z-index: 3;
       }
 
       .partner {
@@ -442,6 +446,15 @@
 
     /* XX-Large devices (larger desktops, 1400px and up) */
     @media (min-width: 1400px) {}
+    .banner-overlay {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 2;
+    }
   </style>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-668682640"></script>
@@ -486,9 +499,9 @@
       style="padding: 8px 12px 8px 12px; border-radius: 100px; font-size: 12px;">CONTACT US</button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
-        <li><a style="color: #fff;" href="mailto:elegantinteriorskolkata@gmail.com"><img
+        <li><a style="color: #fff;" href="mailto:support@elegantinterio.co.in"><img
               style="width: 20px; margin: 0 5px;"
-              src="./images/home/icons/email.svg" />elegantinteriorskolkata@gmail.com</a></li>
+              src="./images/home/icons/email.svg" />support@elegantinterio.co.in</a></li>
         <li><a style="color: #fff;" href="tel:8240575813"><img style="width: 20px; margin: 0 5px;"
               src="./images/home/icons/phone.svg" />8240575813</a> </li>
         <li><a style="color: #fff;" href="" onclick="window.open('https://wa.me/8240575913')"><img
@@ -502,29 +515,32 @@
   </nav>
 
   <!-- Banner -->
-  <section class="banner">
-    <div class="container">
-      <div class="row pt-2 pt-md-5">
+  <section style="position: relative;">
+    <div class="banner">
+      <div class="container">
+        <div class="row pt-2 pt-md-5">
 
-        <div class="col-12 col-md-6 mb-5 mb-md-0 d-none d-md-block">
-          <h1 class="heading"><span style="color: white;">Best Home Interior Designer</span> <span
-              style="color: #ea6a41">In Kolkata</span></h1>
-          <h6 class="subheading" style="color: white;">Designing Homes, Building Dreams</h6>
-        </div>
-        <div class="col-12 col-md-6 mb-5 mb-md-0 d-block d-md-none">
-          <h3 class="heading"><span style="color: white;">Best Home Interior Designer</span> <span
-              style="color: #ea6a41">In Kolkata</span></h3>
-          <h6 class="subheading" style="color: white;">Designing Homes, Building Dreams</h6>
-        </div>
-        <div class="col-12 col-md-1"></div>
+          <div class="col-12 col-md-6 mb-5 mb-md-0 d-none d-md-block">
+            <h1 class="heading"><span style="color: white;">&#8220;Best Home Interior Designer&#8221;</span> <span
+                style="color: #ea6a41">In Kolkata</span></h1>
+            <h6 class="subheading" style="color: white;">Designing Homes, Building Dreams</h6>
+          </div>
+          <div class="col-12 col-md-6 mb-5 mb-md-0 d-block d-md-none">
+            <h3 class="heading"><span style="color: white;">&#8220;Best Home Interior Designer&#8221;</span> <span
+                style="color: #ea6a41">In Kolkata</span></h3>
+            <h6 class="subheading" style="color: white;">Designing Homes, Building Dreams</h6>
+          </div>
+          <div class="col-12 col-md-1"></div>
 
-        <div class="d-block d-md-none col-12 col-md-5 mt-5">
-          <button onclick="window.open('https://forms.gle/V7Myt59M4HrKP9Ud8')" class="btn btn-warning w-100 mt-5"
-            style="border-radius: 100px; font-weight: bold; height: 50px;">DISCUSS
-            YOUR PROJECT</button>
+          <div class="d-block d-md-none col-12 col-md-5 mt-5">
+            <button onclick="window.open('https://forms.gle/V7Myt59M4HrKP9Ud8')" class="btn btn-warning w-100 mt-5"
+              style="border-radius: 100px; font-weight: bold; height: 50px;">DISCUSS
+              YOUR PROJECT</button>
+          </div>
         </div>
       </div>
     </div>
+    <div class="banner-overlay"></div>
   </section>
 
   <!-- Designe -->
@@ -555,7 +571,7 @@
       <div class="row justify-content-center">
         <div class="col-md-12 d-block d-md-none">
           <h2 class="text-left" style="font-weight: bold; color: #41303e;">About us</h2>
-          <p class="text-left" style="color: #41303e; padding: 20px;">At <b>Elegant Interiors</b>, we believe that your home is a reflection
+          <p class="text-left" style="color: #41303e; padding: 20px;">At <b>Elegant Interio</b>, we believe that your home is a reflection
             of your personality and style. That's why we're dedicated to creating interior designs that are both unique
             and functional. We work closely with our clients to understand their needs and preferences, and we then use
             our creativity and expertise to create spaces that they love.
@@ -582,13 +598,13 @@
             have a proven track record of success, and we're committed to providing our clients with the highest quality
             of service.
             <br />
-            If you're looking for a professional interior design company, contact Elegant Interiors today. We'd be happy
+            If you're looking for a professional interior design company, contact Elegant Interio today. We'd be happy
             to discuss your needs and help you create the interior space of your dreams.
             </p>
         </div>
         <div class="col-md-12 d-md-block d-none">
           <h2 class="text-center" style="font-weight: bold; color: #41303e;">About us</h2>
-          <p class="text-center" style="color: #41303e; padding: 20px;">At <b>Elegant Interiors</b>, we believe that your home is a reflection
+          <p class="text-center" style="color: #41303e; padding: 20px;">At <b>Elegant Interio</b>, we believe that your home is a reflection
             of your personality and style. That's why we're dedicated to creating interior designs that are both unique
             and functional. We work closely with our clients to understand their needs and preferences, and we then use
             our creativity and expertise to create spaces that they love.
@@ -615,7 +631,7 @@
             have a proven track record of success, and we're committed to providing our clients with the highest quality
             of service.
             <br />
-            If you're looking for a professional interior design company, contact Elegant Interiors today. We'd be happy
+            If you're looking for a professional interior design company, contact Elegant Interio today. We'd be happy
             to discuss your needs and help you create the interior space of your dreams.</p>
         </div>
         <div class="col-12" style="text-align: center;">
@@ -645,9 +661,9 @@
       <div class="col-12 col-md-5 text-center" style="padding: 60px 0px 60px 0px;">
         <h1 class="text-center mb-4 d-none d-md-block">Looking For Best Interior Designer?</h1>
         <h3 class="text-left mb-4 d-block d-md-none">Looking For Best Interior Designer?</h3>
-        <p class="text-center mb-4 px-1 d-none d-md-block">Every room tells a story: let Elegant Interior write yours.
+        <p class="text-center mb-4 px-1 d-none d-md-block">Every room tells a story: let Elegant Interio write yours.
           From vision to reality, see your dream comes true with our modern & innovative design ideas.</p>
-        <p class="text-left mb-4 px-1 d-block d-md-none">Every room tells a story: let Elegant Interior write yours.
+        <p class="text-left mb-4 px-1 d-block d-md-none">Every room tells a story: let Elegant Interio write yours.
           From vision to reality, see your dream comes true with our modern & innovative design ideas.</p>
         <button onclick="window.open('https://forms.gle/V7Myt59M4HrKP9Ud8')" class="btn btn-warning elegant_btn"
           style="padding: 12px 48px 12px 48px; border-radius: 100px;">ENQUIRE NOW
@@ -668,19 +684,19 @@
       <div class="col-md-8">
         <div class="row mt-4">
           <div class="col-6 col-md-3 mb-3 mb-md-0">
-            <h2 class="text-white text-center counter1" style="font-weight: bolder;">55000 +</h2>
+            <h2 class="text-white text-center counter1" style="font-weight: bolder;">160 +</h2>
             <h6 class="text-white text-center" style="font-weight: bolder;">Completed Projects </h6>
           </div>
           <div class="col-6 col-md-3 mb-3 mb-md-0">
-            <h2 class="text-white text-center counter2" style="font-weight: bolder;">80 +</h2>
+            <h2 class="text-white text-center counter2" style="font-weight: bolder;">8 +</h2>
             <h6 class="text-white text-center" style="font-weight: bolder;">Ongoing Projects </h6>
           </div>
           <div class="col-6 col-md-3 mb-3 mb-md-0">
-            <h2 class="text-white text-center counter3" style="font-weight: bolder;">40000 +</h2>
+            <h2 class="text-white text-center counter3" style="font-weight: bolder;">600 +</h2>
             <h6 class="text-white text-center" style="font-weight: bolder;">Happy Clients </h6>
           </div>
           <div class="col-6 col-md-3 mb-3 mb-md-0">
-            <h2 class="text-white text-center counter4" style="font-weight: bolder;">150 +</h2>
+            <h2 class="text-white text-center counter4" style="font-weight: bolder;">27 +</h2>
             <h6 class="text-white text-center" style="font-weight: bolder;">Team</h6>
           </div>
         </div>
@@ -823,8 +839,8 @@
           <div class="row">
             <div class="col-md-12">
               <p class="text-center d-block" style="color: black; font-size: 18px;"><i>“If I needed to design my home in
-                  the future, I will definitively do it from Elegant. I will also
-                  recommend my friends and relatives to connect with Elegant for home interior”
+                  the future, I will definitively do it from Elegant Interio. I will also
+                  recommend my friends and relatives to connect with Elegant Interio for home interior”
                 </i></p>
             </div>
             <div class="col-md-12">
@@ -1028,7 +1044,7 @@
                   </li>
                   <li class="mb-4">
                     <p class="body_small">
-                      Customization And Innovation: Customization and innovation of Elegant makes each home stand apart
+                      Customization And Innovation: Customization and innovation of Elegant Interio makes each home stand apart
                       from others and makes it "one of a kind"
                     </p>
                   </li>
@@ -1067,7 +1083,7 @@
     <div style="padding: 60px 0px 60px 0px;">
       <div class="row justify-content-center">
         <div class="col-md-12 text-center mb-3">
-          <h2 class="text-center">Why Elegant Interior</h2>
+          <h2 class="text-center">Why Elegant Interio</h2>
         </div>
         <div class="col-6 col-md-3 text-center mt-1 mb-4">
           <img src="./images/home/icons/days.png" style="width: 80px;" />
@@ -1149,7 +1165,7 @@
                 <div class="row px-3 pb-3">
                   <div class="col-12">
                     <p class="text-center" style="font-size: 16px;"><i>“They understand my expectation in our first
-                        meeting and work accordingly. Thank you Elegant for making my dream come true”</i></p>
+                        meeting and work accordingly. Thank you Elegant Interio for making my dream come true”</i></p>
                   </div>
                   <div class="col-12">
                     <p class="text-center" style="font-size: 16px; font-weight: bold;"><i>Mrs. R.C.Gupta</i></p>
@@ -1165,8 +1181,8 @@
                 <div class="row px-3 pb-3">
                   <div class="col-12">
                     <p class="text-center" style="font-size: 16px;"><i>"If I needed to design my home in the future, I
-                        will definitively do it from Elegant. I will also recommend my friends and relatives to connect
-                        with Elegant for home interior"</i></p>
+                        will definitively do it from Elegant Interio. I will also recommend my friends and relatives to connect
+                        with Elegant Interio for home interior"</i></p>
                   </div>
                   <div class="col-12">
                     <p class="text-center" style="font-size: 16px; font-weight: bold;"><i>Dr.Tapan Kumar Bhowmick</i>
@@ -1183,7 +1199,7 @@
 
                 <div class="row px-3 pb-3">
                   <div class="col-12">
-                    <p class="text-center" style="font-size: 16px;"><i>"I am very thankful to Elegant Interior for
+                    <p class="text-center" style="font-size: 16px;"><i>"I am very thankful to Elegant Interio for
                         making my dream house. Each and everything is very nice, I am very satisfied”</i></p>
                   </div>
                   <div class="col-12">
@@ -1302,11 +1318,11 @@
 
     <div class="row justify-content-center px-3" style="background-color: #41303e">
       <div class="text-center" style="padding: 60px 0px 60px 0px;">
-        <h6 style="color: white;">© 2023 elegant-interior.in All Rights Reserved.</h6>
-        <p class="text-justify mb-4" style="color: white; padding: 0 20px;">Elegant Interiors boasts a rich 25-year
+        <h6 style="color: white;">© 2023 elegantinterio.co.in All Rights Reserved.</h6>
+        <p class="text-justify mb-4" style="color: white; padding: 0 20px;">Elegant Interio boasts a rich 25-year
           legacy in the world of interior design, offering comprehensive home interior design and turnkey solutions for
           all property types. With a keen eye on the latest design trends, we craft unique and captivating interiors.
-          Choose Elegant Interiors for a confident 30-year warranty. Experience prompt delivery within 30 days. Turn
+          Choose Elegant Interio for a confident 30-year warranty. Experience prompt delivery within 30 days. Turn
           your property dreams into reality with our turnkey interior designs. Enjoy custom and innovative designs,
           crafted with marine-grade ply for lasting quality. Join the finest interior family today – your top choice for
           interior design in Kolkata, Newtown, Rajarhat, Tollygunge, and beyond.</p>
